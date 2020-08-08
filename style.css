@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap');
+
+@font-face{
+    font-family: Hamurz;
+    src: url("Fonts/Hamurz.otf") format("otf"),
+         url("Fonts/Hamurz.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: Bosk;
+    src: url("Fonts/Bosk.otf") format("otf"),
+         url("Fonts/Bosk.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: OpenSans-Regular;
+    src: url("Fonts/OpenSans-Regular.ttf") format("ttf");
+}
+
+*{
+    box-sizing: border-box;
+    font-family: OpenSans-Regular;
+    color: white;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:#101012;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+    list-style: none;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:rgba(255,255,255,.3);
+
+
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.main-header{
+    background-color:#1e1e21;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.anime-name{    
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: "Hamurz";
+    font-weight: normal;
+    color: white;
+}
+
+.main-section{
+    display: flex;
+    justify-items:center ;
+    align-items: stretch;
+}
+
+.sidebar{
+    background-color: #1e1e21;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    flex-basis: 15%;
+    font-size: 17px;
+}
+
+.sidebar-left{
+    border-right:1px solid white ;
+}
+
+.sidebar-right{
+    border-left: 1px solid white;
+}
+
+.sidebar-content{
+    display: flex;
+    flex-direction: column;
+    background-color:#1e1e21;
+    flex-grow: 1;
+    text-align: center;
+    align-items: stretch; 
+}
+
+.sidebar-content ul{
+    list-style: none;
+    padding-left: 15px;
+    text-align: start;
+    
+}
+.sidebar-content li{
+    margin: 1em 0;
+    font-weight: lighter;
+}
+
+.sidebar-content-header{
+    border: 1px solid white;
+    display: block;
+    font-weight:bold;
+}
+
+.sidebar-content-header li{
+    font-size: 25px;
+    font-weight:bolder;
+}
+.sidebar-content a{
+    text-decoration: none;
+}
+
+.sidebar-left-lower button{
+    background-color:#1e1e21 ;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-left: none;
+    border-right: none; 
+
+}
+.sidebar-left-lower button:hover{
+    background-color:rgba(255,255,255,.3);
+}
+
+.sidebar-left-lower button:active{
+    background-color:rgba(255,255,255,.3);
+}
+
+.announcement-box{
+    margin: 0;
+    border-bottom: 1px solid white;
+}
+
+.announcement-box p{
+    text-align: start;
+    margin-left: 10px; 
+}
+
+.content-section{
+    margin: 1em;
+    
+}
+
+.content-container{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 0em;
+    
+}
+
+.section-header{
+    font-family: "Bosk";
+    font-weight: normal;
+    text-align: start;
+    font-size: 1.5em;
+    margin-top: 0;
+    text-decoration-line: underline;
+}
+
+.about-anime-image{
+    float: left;
+    width: 200px;
+    height: 200ox;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    background-color: #1e1e21;
+    color: white;
+    padding: 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.main-footer-container ul{
+    text-align: end;
+    flex-grow: 1;
+}
+
+.main-footer-container h3{
+    margin-left: 30px;
+}
+
+.footer-nav li{
+    padding: 0 0.6em;
+}
+
+.footer-nav image{
+    width: 30px;
+    height: 30;
+}
+
+.main-content{
+    margin: 0 auto;
+    padding: 0 1.5em;
+    font-size: 1.15em;
+    text-indent: 50px;
+    line-height: 1.6;
+}
